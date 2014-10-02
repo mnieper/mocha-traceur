@@ -1,26 +1,15 @@
 {
   "name": "mocha-traceur",
   "version": "1.0.0",
-  "description": "Simple \"compiler\" plugin for mocha that sets the default js file handler to pass through traceur",
+  "description": "A \"compiler\" plugin for Mocha that makes non-dependency JS files to pass through Traceur",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tucksen/mocha-traceur"
-  },
+  "repository": "domenic/mocha-traceur",
   "keywords": [
     "mocha",
     "traceur",
     "es6",
     "compiler"
   ],
-  "author": "Jesse Tuchsen",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tucksen/mocha-traceur/issues"
-  },
-  "dependencies": {
-  }
+  "author": "Domenic Denicola <domenic@domenicdenicola.com> (http://domenic.me/)",
+  "license": "MIT"
 }
